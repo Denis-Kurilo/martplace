@@ -3,4 +3,47 @@
 @import "fonts";
 @import "media";
 
- 
+/* header */ 
+.header__top{
+	background-color: $bgGrey;
+	height: 100px;
+	padding-top: 25px;
+}
+.header__top-inner{
+	display: flex;
+    justify-content: space-between;	
+    align-items: center;
+}
+.header__btn{
+	margin-left: auto;
+	margin-right: 50px;
+	background-color: $colorBtn;
+	padding: 11px 15px;
+	color: #FFF;
+    border-radius: 18px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.header__user{
+	display: flex;
+	line-height: 22px;
+	
+	.avatar{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: #7c7979;
+		margin-right: 10px;
+	}
+}
+.header__box{
+	margin-left: 10px;
+	
+	a{
+		display: block;
+	}
+	
+	.header__name{
+		color: red;
+	}
+}
+/* header-end */
