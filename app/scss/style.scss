@@ -1,7 +1,7 @@
 @import "vars";
 @import "global";
 @import "fonts";
-@import "media";
+@import "media"; 
 
 /* header */ 
 .header__top{
@@ -23,15 +23,55 @@
     border-radius: 18px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
+.header__userInfo{
+	font-family: 'icomoon';
+	display: flex;
+	a{
+		font-size: 20px;
+		color: #7e8fa1;
+	}
+	&-alarm{
+		padding-right: 15px;
+
+		&::before{
+			content: "\e902";
+		}
+		/* &::after{
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #ff6a6c;
+			width: 15px;
+			height: 15px;
+			        border-radius: 50%;
+		} */
+	}
+	&-message{
+		margin-left: 15px;
+		padding-right: 15px;
+		&::before{
+			content: "\e900";
+		}
+	}
+
+	&-basket{
+		margin-left: 15px;
+		padding-right: 15px;
+		&::before{
+			content: "\e901";
+		}
+	}
+}
 .header__user{
 	display: flex;
 	line-height: 22px;
+	margin-left: 30px;
 	
 	.avatar{
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
-		background-color: #7c7979;
 		margin-right: 10px;
 	}
 }
@@ -290,17 +330,17 @@
 	max-width: 555px;
 	width: 100%;
 	min-height: 450px;
-	background-color: #4e5760;
 }
-/* .slideProducts__item{
-	border-radius: 4px;
+.slideProducts__box-tag-link1{
+	min-width: 30px;
+	height: 30px;
+	background-image: url(../images/content/avatar-small.png);
+	background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-block;
 	
-	&-images{
-		max-width: 555px;
-		min-height: 450px;
-		background-color: #4e5760;
-	}
-} */
+}
 .slideProducts__box{
 	padding: 45px 50px 25px 50px;
 	max-width: 585px;
