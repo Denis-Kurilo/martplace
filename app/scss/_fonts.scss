@@ -1,11 +1,11 @@
 //icomoon
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon/icomoon.eot?cabual');
-  src:  url('../fonts/icomoon/icomoon.eot?cabual#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.ttf?cabual') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?cabual') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?cabual#icomoon') format('svg');
+  src:  url('../fonts/icomoon/icomoon.eot?d4ubm7');
+  src:  url('../fonts/icomoon/icomoon.eot?d4ubm7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?d4ubm7') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?d4ubm7') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?d4ubm7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,21 +26,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-mail_outline:before {
-  content: "\e900";
+.icon-search:before {
+  content: "\f002";
 }
-.icon-keyboard_arrow_down:before {
-  content: "\e903";
+.icon-envelope-o:before {
+  content: "\f003";
 }
-.icon-keyboard_arrow_left:before {
-  content: "\e904";
+.icon-shopping-cart:before {
+  content: "\f07a";
 }
-.icon-navigate_nextchevron_right:before {
-  content: "\e905";
+.icon-heart-o:before {
+  content: "\f08a";
 }
-.icon-local_grocery_storeshopping_cart:before {
-  content: "\e901";
+.icon-bell-o:before {
+  content: "\f0a2";
 }
-.icon-notifications_none:before {
-  content: "\e902";
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
 }
