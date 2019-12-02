@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
+<body> 
 <!--[if lt IE 8]>
 <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
 <![endif]-->
@@ -279,7 +279,10 @@
 			<div class="sortProducts__title">
 				<span>Newest Release Products</span>
 				<div class="sortProducts__title-filter">
-					Filter by:
+					<span>Filter by:</span>
+					<a href="#">
+						<img src="images/icons/iconFilter.svg" alt="filter">
+					</a>
 				</div>
 			</div>
 			<div class="sortProducts__filterNav">
@@ -291,6 +294,16 @@
 				<button type="button" data-filter=".userInterface">User Interface</button>
 				<button type="button" data-filter=".Landing">Landing Page</button>
 				<button type="button" data-filter=".Software">Software</button>
+			</div>
+
+			<div class="sortProducts__inner">
+				<!-- item -->
+				<div class="sortProducts__item">
+					<div class="sortProducts__item-img">
+						<a class="sortProducts__item-btn"></a>
+					</div>
+				</div>
+				<!-- item-end -->
 			</div>
 		</div>
 	</section>
