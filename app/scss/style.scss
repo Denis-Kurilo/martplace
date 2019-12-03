@@ -727,21 +727,28 @@
 .sortProducts__btn-inner{
 	text-align: center;
 	padding-bottom: 120px;
+
+	button{
+		display: inline-block;
+		padding: 20px 30px;
+		color: #FFF;
+		border: 1px solid #0674ec;
+		color: #000;
+	    border-radius: 27px;
+	    transition: all .3s;
+	    background-color: transparent;
+	    cursor: pointer;
+	    outline: none;
+	    
+	    &:hover, &:focus{
+	    	background-color: #0674ec;
+	    	color: #fff;
+	    }	
+	}
 }
-.sortProducts__btn{
-	display: inline-block;
-	padding: 20px 30px;
-	color: #FFF;
-	border: 1px solid #0674ec;
-	color: #000;
-    border-radius: 27px;
-    transition: all .3s;
-    
-    &:hover, &:focus{
-    	background-color: #0674ec;
-    	color: #fff;
-    }
-}
+// .sortProducts__btn{
+	
+// }
 /* sortProducts-end */
 
 /* followers */
@@ -888,6 +895,9 @@
 /* items-end */
 
 /* productsTwoBlock */
+.productsTwoBlock__inner{
+	display: flex;
+}
 .productsTwoBlock__item{
 	background-image: url(../images/content/productsTwoBlockImg-1.jpg);
 	background-repeat: no-repeat;
@@ -899,6 +909,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &-img1{
+    	background-image: url(../images/content/productsTwoBlockImg-1.jpg);
+    }
+     &-img2{
+    	background-image: url(../images/content/productsTwoBlockImg-2.jpg);
+    }
     
     &-img{
     	margin-bottom: 40px;
@@ -920,11 +937,20 @@
     	margin-right: auto;
     }
     &-btn{
-    	display: inline-block;
+    	max-width: 190px;
+    	width: 100%;
     	border: 1px solid #FFF;
     	padding: 18px 22px;
     	color: #FFF;
         border-radius: 27px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: all .3s;
+
+        &:hover{
+        	background-color: #fff;
+        	color: #0674ec;
+        }
     }
 }
 /* productsTwoBlock-end */
