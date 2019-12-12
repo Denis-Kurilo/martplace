@@ -33,22 +33,20 @@
 		font-family: 'icomoon';
 		font-size: 20px;
 		color: #7e8fa1;
-<<<<<<< HEAD
 		span{
 			min-width: 24px;
 			height: 24px;
-      border-radius: 50%;
-      position: absolute;
-      top: -15px;
-      right: -15px;
-      color: #FFF;
-      font-size: 14px;
-      font-weight: 500;
-      text-align: center;
-      line-height: 22px;
-      padding-left: 2px;
-      padding-right: 2px;
-=======
+			border-radius: 50%;
+			position: absolute;
+			top: -15px;
+			right: -15px;
+			color: #FFF;
+			font-size: 14px;
+			font-weight: 500;
+			text-align: center;
+			line-height: 22px;
+			padding-left: 2px;
+			padding-right: 2px;
 	}
 	&-alarm{
 		padding-right: 15px;
@@ -70,9 +68,9 @@
 		padding-right: 15px;
 		&::before{
 			content: "\f07a";
->>>>>>> f450d8f2d02d339832000ba0b86ba79d0ed46909
 		}
 	}
+}
 }
 .notification__box span{
 	background-color: $red;
