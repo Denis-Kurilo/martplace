@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
 	<title>MartPlace</title>
 	<link rel="stylesheet" href="css/libs.min.css">
-	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/style.min.css"> 
 </head>
 <body> 
 <!--[if lt IE 8]>
@@ -21,11 +21,26 @@
 						<img src="images/logo/logo.png" alt="логотип">
 					</div>
 					<a href="#" class="header__btn">Become a Seller</a>
-					<div class="header__userInfo">
-						<a href="#" class="header__userInfo-alarm"></a> 
-						<a href="#" class="header__userInfo-message"></a>
-						<a href="#" class="header__userInfo-basket"></a>
+					<div class="notification__box">
+						<a href="#" class="icon-bell-o">
+							<span>25</span>
+						</a>
 					</div>
+					<div class="message__box">
+						<a href="#" class="icon-envelope-o">
+							<span>6</span>
+						</a>
+					</div>
+					<div class="backet__box">
+						<a href="#" class="icon-shopping-cart">
+							<span>2</span>
+						</a>
+					</div>
+				<!-- 	<div class="header__userInfo">
+					<a href="#" class="header__userInfo-alarm circle"></a> 
+					<a href="#" class="header__userInfo-message circle"></a>
+					<a href="#" class="header__userInfo-basket circle"></a>
+				</div> -->
 					<div class="header__user">
 						<a href="#" class="avatar" style="background-image: url(../images/content/avatar.png);"></a>
 						<div class="header__box">
@@ -274,10 +289,18 @@
 			<div class="sortProducts__title">
 				<span>Newest Release Products</span>
 				<div class="sortProducts__title-filter">
-					<span>Filter by:</span>
+					<form>
+						<select>
+							<option>Filter by:</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+					</form>
+					<!-- <span>Filter by:</span>
 					<a href="#">
 						<img src="images/icons/iconFilter.svg" alt="filter">
-					</a>
+					</a> -->
 				</div>
 			</div>
 			<div class="sortProducts__filterNav">
@@ -690,7 +713,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>
@@ -732,7 +755,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>
@@ -774,7 +797,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>
@@ -816,7 +839,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>
@@ -858,7 +881,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>
@@ -900,7 +923,7 @@
 							<span>90</span>
 						</a>
 						<div class="followers__item-star">
-							<div id="followersRateYoo"></div>
+							<div id="followersRateYo"></div>
 						</div>
 						<a href="#" class="followers__item-bought">
 							<span>246</span>

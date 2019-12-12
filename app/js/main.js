@@ -1,7 +1,7 @@
 $(function(){
 
 //rateYo
-$("#rateYoo ,#followersRateYoo").rateYo({
+$("#rateYo, #followersRateYo").rateYo({
     starWidth: "17px",
     rating: 4.5,
     readOnly: true
@@ -25,6 +25,9 @@ $('.followers__inner').slick({
  	prevArrow: '<div class="prev icon-angle-left"></div>',
   	nextArrow: '<div class="next icon-angle-right"></div>',
 });
+
+//jQuery Form Styler
+$('input, select').styler();
 
 //mixitup
 var mixer = mixitup('.sortProducts__inner');
