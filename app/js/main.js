@@ -1,8 +1,8 @@
 $(function(){
 
 //rateYo
-$("#rateYo, #followersRateYo").rateYo({
-    starWidth: "17px",
+$("#rateYo, #followersRateYo, #sortProducts").rateYo({
+    starWidth: "15px",
     rating: 4.5,
     readOnly: true
   });

@@ -36,17 +36,25 @@
 							<span>2</span>
 						</a>
 					</div>
-				<!-- 	<div class="header__userInfo">
-					<a href="#" class="header__userInfo-alarm circle"></a> 
-					<a href="#" class="header__userInfo-message circle"></a>
-					<a href="#" class="header__userInfo-basket circle"></a>
-				</div> -->
 					<div class="header__user">
 						<a href="#" class="avatar" style="background-image: url(../images/content/avatar.png);"></a>
 						<div class="header__box">
 							<a href="#" class="header__name">Taofiq Hakim</a>
 							<a href="#" class="header__price">$20.45</a>
 						</div>
+						<ul class="dropdown__user">
+							<li class="icon-user-o"><a href="#">Profile Page</a></li>
+							<li class="icon-home"><a href="#">Dashboard</a></li>
+							<li class="icon-cog"><a href="#">Account Settings</a></li>
+							<li class="icon-shopping-cart"><a href="#">Your Purchases</a></li>
+							<li class="icon-heart-o"><a href="#">Your Favorites</a></li>
+							<li class="icon-home"><a href="#">Add Credits</a></li>
+							<li class="icon-bar-chart"><a href="#">Sales Statements</a></li>
+							<li class="icon-upload"><a href="#">Upload Item</a></li>
+							<li class="icon-home"><a href="#">Edit Item</a></li>
+							<li class="icon-home"><a href="#">Withdrawals</a></li>
+							<li class="icon-briefcase"><a href="#">Logout</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -297,10 +305,6 @@
 							<option>3</option>
 						</select>
 					</form>
-					<!-- <span>Filter by:</span>
-					<a href="#">
-						<img src="images/icons/iconFilter.svg" alt="filter">
-					</a> -->
 				</div>
 			</div>
 			<div class="sortProducts__filterNav">
@@ -347,6 +351,9 @@
 						<a href="#" class="sortProducts__item-like">
 							<span>90</span>
 						</a>
+						<div class="sortProducts__item-star">
+							<div id="sortProducts"></div>
+						</div>
 						<a href="#" class="sortProducts__item-bought">
 							<span>246</span>
 						</a>
@@ -356,319 +363,344 @@
 
 				<!-- item -->
 				<div class="sortProducts__item mix SiteTemplate">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix Landing new">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix PSD new">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix Joomla new">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix PSD">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix WordPress">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix Software">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
 
 				<!-- item -->
 				<div class="sortProducts__item mix userInterface">
-					<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
-						<div class="sortProducts__item-btn">
-							<a class="sortProducts__item-link">More Info</a>
-							<a class="sortProducts__item-link">Live Demo</a>	
-						</div>
+				<div class="sortProducts__item-img" style="background-image: url(images/content/sortMixProducts.png);">
+					<div class="sortProducts__item-btn">
+						<a class="sortProducts__item-link">More Info</a>
+						<a class="sortProducts__item-link">Live Demo</a>	
 					</div>
-					<div class="sortProducts__item-box">
-						<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
+				</div>
+				<div class="sortProducts__item-box">
+					<div class="sortProducts__item-title">E-commerce Shopping Cart</div>
 
-						<div class="sortProducts__box-tag">
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
-								<span>Theme-Valley</span>
-							</a>
-							
-							<a href="#" class="sortProducts__box-tag-author">
-								<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
-								<span>Plugin</span>
-							</a>
-						</div>
-
-						<div class="sortProducts__item-text">
-							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
-						</div>
+					<div class="sortProducts__box-tag">
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar" style="background-image: url(images/content/avatar-small.png);"></div>
+							<span>Theme-Valley</span>
+						</a>
+						
+						<a href="#" class="sortProducts__box-tag-author">
+							<div class="sortProducts__box-tag-avatar sortProducts__box-tag-position" style="background-image: url(images/icons/icon-wp.png);"></div>
+							<span>Plugin</span>
+						</a>
 					</div>
-					<div class="sortProducts__item-info">
-						<div class="sortProducts__item-price">$20</div>
-						<a href="#" class="sortProducts__item-like">
-							<span>90</span>
-						</a>
-						<a href="#" class="sortProducts__item-bought">
-							<span>246</span>
-						</a>
-					</div>	
+
+					<div class="sortProducts__item-text">
+						Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet congue.
+					</div>
+				</div>
+				<div class="sortProducts__item-info">
+					<div class="sortProducts__item-price">$20</div>
+					<a href="#" class="sortProducts__item-like">
+						<span>90</span>
+					</a>
+					<div class="sortProducts__item-star">
+						<div id="sortProducts"></div>
+					</div>
+					<a href="#" class="sortProducts__item-bought">
+						<span>246</span>
+					</a>
+				</div>	
 				</div>
 				<!-- item-end -->
+
+				
 			</div>
 			<div class="sortProducts__btn-inner" data-filter=".new">
 				<button type="button" data-filter=".new">All New Products</button>
-				<!-- <a href="#" class="sortProducts__btn" >All New Products</a> -->
 			</div>
 		</div>
 	</section>
