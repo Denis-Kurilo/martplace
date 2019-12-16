@@ -29,6 +29,20 @@ $('.followers__inner').slick({
 //jQuery Form Styler
 $('input, select').styler();
 
+$('.header__user').on('click', function(){
+$('.dropdown__user').slideToggle();
+});
+
+$('.backet__box').on('click', function(){
+$('.dropdown__box').slideToggle();
+});
+
+$('.notification__box').on('click', function(){
+$('.dropdown__notification').slideToggle();
+});
+
+
+
 //mixitup
 var mixer = mixitup('.sortProducts__inner');
 
