@@ -29,8 +29,6 @@ $('.followers__inner').slick({
 //jQuery Form Styler
 $('input, select').styler();
 
-<<<<<<< HEAD
-
 //dropdown
 $('.header__user').on('click', function(e){
 $('.dropdown__user').slideToggle();
@@ -79,19 +77,29 @@ $(document).click(function() {
   $('.dropdown__message').hide();
 });
 
+$('.dropdown-position').hover(function(){
+$('.dropdown__col-wrapper').addClass('active');
+});
 
-$('.dropdown-position').on('click', function(e){
+/*$('.dropdown__col-wrapper').hover(function(e) {
+  $(this).removeClass('active');
+  e.stopPropagation();
+})*/
+/*$(document).click(function() {
+  $('.dropdown__col-wrapper').hide();
+});*/
+/*$('.dropdown-position').on('click', function(e){
 $('.dropdown__col-wrapper').toggle();
 e.stopPropagation();
 });
 $('.dropdown__col-wrapper').click(function(e) {
   e.stopPropagation();
-});
-$(document).click(function() {
+});*/
+/*$(document).click(function() {
   $('.dropdown__col-wrapper').hide();
-});
+});*/
 //dropdown - end
-=======
+
 $('.header__user').on('click', function(){
 $('.dropdown__user').slideToggle();
 });
@@ -103,7 +111,7 @@ $('.dropdown__box').slideToggle();
 $('.notification__box').on('click', function(){
 $('.dropdown__notification').slideToggle();
 });
->>>>>>> 47831aaa0e4e41311078fb3cd81fb5682c068a50
+
 
 
 
